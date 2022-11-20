@@ -1,0 +1,19 @@
+/* breadcrumb menu instructions from https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
+
+/* styling list */
+ul.breadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+}
+
+/* display list items on the same line */
+ul.breadcrumb li {
+    display: inline;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/";
+}
